@@ -20,7 +20,7 @@ namespace ApiCrud.Server.Controllers
         {
             _dbcontext = dbcontext;
         }
-        [Authorize]
+       /// [Authorize]
         [HttpGet]
         [Route("Lista")]
         public async Task<IActionResult> Lista()

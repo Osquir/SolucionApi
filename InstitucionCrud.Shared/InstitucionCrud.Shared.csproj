@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<supportedPlatform Include="Browser" />
+	</ItemGroup>
+	
 </Project>
